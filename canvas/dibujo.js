@@ -1,6 +1,6 @@
 var texto = document.getElementById("texto_lineas");
 var boton = document.getElementById("boton1");
-boton.addEventListener(click, dibujoPorClick);
+boton.addEventListener("click", dibujoPorClick);
 var d=document.getElementById("dibujito");
 var lienzo = d.getContext("2d");
 var lineas = 30;
@@ -9,7 +9,7 @@ var l = 0;
 var n = 0;
 var yi, xf;
 var color1 = "#FAA";
-
+console.log (window);
 for(l = 0; l < lineas; l++)
 {
     yi = 10 * l;
