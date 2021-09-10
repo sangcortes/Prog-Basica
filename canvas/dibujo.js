@@ -15,7 +15,7 @@ function dibujarLinea(color, xinicial, yinicial, xfinal, yfinal)
     lienzo.stroke();
     lienzo.closePath();
 }
-
+console.log(canvas);
 function dibujoPorClick()
 {
     var lineas = parseInt(texto.value);
